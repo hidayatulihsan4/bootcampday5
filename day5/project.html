@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><img src="image/brandred.png" alt=""></li>
+            <li><a href="index.html" class="nav-home">Home</a></li>
+            <li><a href="project.html">My Project</a></li>
+        </ul>
+        <div class="nav-right">
+            <a href="contact.html">
+                <button>Contact Me</button>
+            </a>
+        </div>
+    </nav> 
+    <div class="header">
+    <form action="" class="form-container" onsubmit="addProject(event)" >
+        <div>
+            <h1>ADD MY PROJECT</h1>
+        </div>
+    
+    <div class="contact-container">
+        <label for="input-name-project">Project Name</label>
+        <input for="input-name-project" type="text"> 
+    </div>
+    <div class="date">
+        <div class="input-date">
+            <label for="start-date">Start Data</label>
+            <input for="input-date" type="date"> 
+        </div>
+        <div class="input-date">
+            <label for="end-date">End Data</label>
+            <input for="input-date" type="date"> 
+        </div>
+    </div>
+    <div>
+        <label for="input-description">Description</label>
+        <textarea name="" id="input-description" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <label>Tehcnologies</label>
+        <div class="checkbox-group">
+            <div class="checkbox-list">
+                <input type="checkbox" name="" id="node-js" class="multi-input">
+                <label for="node-js">Node JS</label>
+            </div>
+            <div class="checkbox-list">
+                <input type="checkbox" name="" id="Golang" class="multi-input">
+                <label for="Golang">Golang</label>
+            </div>
+            <div class="checkbox-list">
+                <input type="checkbox" name="" id="react-js" class="multi-input">
+                <label for="react-js">React JS</label>
+            </div>
+            <div class="checkbox-list">
+                <input type="checkbox"  name="" id="javascript" class="multi-input">
+                <label for="javascript">Javascript</label>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <label>Upload Image</label>
+        <div class="label-image">
+            <label for="input-image">
+                <p>Choose</p>
+                <i class="fa-solid fa-paperclip fa-fw"></i>
+            </label>
+            <input type="file" id="input-image">
+        </div>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+</div>
+
+    <script src="js/project.js"></script>
+  </body>
+</html>

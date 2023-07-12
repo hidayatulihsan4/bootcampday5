@@ -1,0 +1,89 @@
+.container-project {
+    margin: 50px;
+  }
+  
+  div h1 {
+    text-align: center;
+    margin: 40px ;
+  }
+  
+  .header-project {
+    display: flex;
+  }
+  
+  .header-project .left-project {
+    margin: 10px;
+  }
+  
+  .header-project .left-project img {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .header-project .right-project {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  
+  .right-project .right-icon-project {
+    display: flex;
+  }
+  
+  .right-project .icon-duration i {
+    font-size: 30px;
+    margin: 0 20px;
+  }
+  
+  .right-project .right-icon-project i {
+    font-size: 30px;
+    margin: 0 20px;
+  }
+  
+  .paragraf-project {
+    text-align: justify;
+  }
+  .checkbox-group {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .checkbox-group .checkbox-list {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .checkbox-group .checkbox-list label {
+    color: rgb(62, 62, 62);
+  }
+  
+  .checkbox-list input {
+    width: 20px;
+    height: 20px;
+    box-shadow: none;
+  }
+  
+  .label-image label {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .label-image label p {
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(209, 209, 209);
+    color: rgb(158, 158, 158);
+  }
+  
+  .label-image label i {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  
